@@ -1,0 +1,364 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+body {
+  width: 1024px;
+  height: 682px;
+  padding: 33px;
+  margin: 0 auto;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+header {
+  margin: 0px 0px 10px 0px;
+}
+header a {
+  position: relative;
+  top: 18px;
+  left: 540px;
+  font-family: "Helvetica Neue";
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #595959;
+}
+header .header__link3 {
+  color: #c5352a;
+}
+header .logo {
+  margin: -15px 0px 0px 0px;
+}
+
+.menu {
+  width: 958px;
+  height: 34px;
+  border-radius: 5px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#a21b11), to(#c24c3b));
+  background-image: linear-gradient(0deg, #a21b11 0%, #c24c3b 100%);
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #e6e6e6;
+  margin: 0px 0px 10px 0px;
+}
+.menu a {
+  color: #e6e6e6;
+}
+.menu .home {
+  width: 82px;
+  height: 34px;
+  background: url(/2022/Practice/XmanBank/XmanBank/img/layer_10_copy_76.png);
+  padding: 0px 0px 0px 15px;
+}
+.menu div {
+  display: inline-block;
+  padding: 0px 10px 0px 10px;
+}
+.menu .call__us {
+  display: inline-block;
+  background: url(/2022/Practice/XmanBank/XmanBank/img/layer_10_67.png) no-repeat;
+  width: 340px;
+  height: 34px;
+  padding: 0px 0px 0px 110px;
+  margin: 0px 0px 0px 50px;
+}
+
+.content {
+  height: 542px;
+}
+.content .advertising {
+  display: inline-block;
+  width: 675px;
+  height: 309px;
+  background: url(/2022/Practice/XmanBank/XmanBank/img/layer_14_130.png);
+  margin: 0px 10px 0px 0px;
+}
+.content .advertising .gold {
+  position: relative;
+  top: 70px;
+  left: 310px;
+}
+.content .advertising .text1 {
+  position: relative;
+  top: 80px;
+  right: 320px;
+}
+.content .advertising .text2 {
+  position: relative;
+  bottom: 100px;
+  left: 30px;
+}
+.content .advertising .text3 {
+  position: relative;
+  bottom: 40px;
+  right: 265px;
+}
+.content .advertising .star {
+  position: relative;
+  bottom: 165px;
+  left: 10px;
+}
+.content .advertising .star2 {
+  position: relative;
+  right: 270px;
+  bottom: 110px;
+}
+.content .advertising .dot {
+  position: relative;
+  top: 55px;
+  right: 10px;
+}
+.content .autorzation {
+  display: inline-block;
+  width: 271px;
+  height: 309px;
+  background: url(/2022/Practice/XmanBank/XmanBank/img/layer_18_142.png);
+  position: absolute;
+}
+.content .autorzation .info {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ececec;
+  margin: 20px 0px 15px 20px;
+}
+.content .autorzation .info span {
+  background: url(/2022/Practice/XmanBank/XmanBank/img/icon/layer_23_155.png) left no-repeat;
+  padding: 0px 0px 0px 30px;
+}
+.content .autorzation .login,
+.content .autorzation .pass {
+  width: 216px;
+  height: 25px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#ffffff), color-stop(92%, #e4e7e7), to(#bdbdbd));
+  background-image: linear-gradient(0deg, #ffffff 0%, #e4e7e7 92%, #bdbdbd 100%);
+  margin: 0 0 10px 20px;
+}
+.content .autorzation .check {
+  text-align: center;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #e4e7e7;
+  opacity: 0.8;
+}
+.content .autorzation button {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 700;
+  text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.25);
+  color: #ececec;
+  background: #c43326;
+  border-radius: 5px;
+}
+.content .autorzation input::-webkit-input-placeholder {
+  opacity: 0.5;
+  line-height: 22px;
+  padding: 0px 0px 0px 20px;
+}
+.content .autorzation input::-moz-placeholder {
+  opacity: 0.5;
+  line-height: 22px;
+  padding: 0px 0px 0px 20px;
+}
+.content .autorzation input:-ms-input-placeholder {
+  opacity: 0.5;
+  line-height: 22px;
+  padding: 0px 0px 0px 20px;
+}
+.content .autorzation input::-ms-input-placeholder {
+  opacity: 0.5;
+  line-height: 22px;
+  padding: 0px 0px 0px 20px;
+}
+.content .autorzation input::placeholder {
+  opacity: 0.5;
+  line-height: 22px;
+  padding: 0px 0px 0px 20px;
+}
+.content .autorzation .butt__log {
+  width: 85px;
+  height: 34px;
+  margin: 10px 35%;
+}
+.content .autorzation .member {
+  margin: 0px 0px 0px 70px;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 500;
+  color: #ececec;
+}
+.content .autorzation .butt__akk {
+  width: 184px;
+  height: 34px;
+  margin: 10px 0px 0px 45px;
+}
+.content .bottom div {
+  display: inline-block;
+}
+.content .bottom .list,
+.content .bottom .works {
+  margin: 20px 0px 0px 0px;
+  font-size: 22px;
+  line-height: 22px;
+  font-weight: 700;
+  color: #595959;
+}
+.content .bottom .list span,
+.content .bottom .works span {
+  color: #e24335;
+}
+.content .bottom .list li:first-child,
+.content .bottom .works li:first-child {
+  margin: 20px 0px 0px 0px;
+}
+.content .bottom .list li,
+.content .bottom .works li {
+  font-size: 14px;
+  line-height: 25px;
+  color: #737070;
+  background: url(/2022/Practice/XmanBank/XmanBank/img/icon/layer_26_181.png) left no-repeat;
+  padding: 0px 0px 0px 30px;
+}
+.content .bottom .works {
+  position: relative;
+  bottom: 140px;
+  left: 30px;
+}
+.content .bottom .frame {
+  width: 561px;
+  height: 142px;
+  background-color: #f2f4f4;
+  border: 1px solid rgba(0, 0, 0, 0.13);
+  position: relative;
+  bottom: 130px;
+  left: 395px;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400;
+  color: #737070;
+  background: url(/2022/Practice/XmanBank/XmanBank/img/layer_30_copy_201.png) center no-repeat;
+}
+.content .bottom .frame div {
+  width: 170px;
+  height: 100px;
+  margin: 10px 0 0 0;
+  padding: 90px 0px 0px 40px;
+}
+.content .bottom .frame .check {
+  background: url(/2022/Practice/XmanBank/XmanBank/img/group_1_304.png) 20px 20px no-repeat;
+}
+.content .bottom .frame .buy {
+  background: url(/2022/Practice/XmanBank/XmanBank/img/gold_copy_286.png) 50px 20px no-repeat;
+}
+.content .bottom .frame .buy span {
+  padding: 0px 0px 0px 35px;
+}
+.content .bottom .frame .payment {
+  background: url(/2022/Practice/XmanBank/XmanBank/img/group_2_copy_3_285.png) 80px 10px no-repeat;
+}
+.content .bottom .frame .payment span {
+  padding: 0px 0px 0px 25px;
+}
+
+footer {
+  height: 62px;
+  width: 100%;
+  border: 1px solid #000;
+  height: 62px;
+  font-family: "Bebas Neue";
+  background: #000;
+  border-radius: 5px;
+}
+footer .text1 {
+  font-size: 28px;
+  line-height: 31px;
+  text-transform: uppercase;
+  color: #ebe8e8;
+  position: relative;
+  top: 25%;
+  left: 30px;
+}
+footer .text2 {
+  position: relative;
+  top: 25%;
+  left: 540px;
+  font-size: 16px;
+  line-height: 22px;
+  color: #ececec;
+}
